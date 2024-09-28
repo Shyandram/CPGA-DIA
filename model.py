@@ -222,34 +222,6 @@ class CPGA_DN(nn.Module):
             return output, g_l, g_n, g[:,0].reshape_as(g_l), g[:,1].reshape_as(g_n)
         return output
     
-    def forward_MEF(self, xl, xh, gamma_pre=0, ext=False, isvid=False, get_all=False):
-                
-        llie = self.ll_d.ll(xl,xl)[0]
-        nlie = self.ll_n.ll(xh,xh)[0]
-        
-        g = self.gamma_estimation(x)  
-        g = torch.reshape(g, [-1, 2])
-
-        g_l = self.ll_d.gamma_estimation(xl)
-        g_n = self.ll_n.gamma_estimation(xh)
-        g_l = (g_l+(g[:,0].reshape_as(g_l)))
-        g_n = (g_n+(g[:,1]).reshape_as(g_n))
-        g_l = torch.clamp(g_l, min=1e-9, )
-        g_n = torch.clamp(g_n, min=1e-9, )
-        
-        llie_g = torch.pow(llie, g_l)
-        nlie_g = torch.pow(nlie, g_n)
-        
-        ll = self.ll_d.fusion_strategy(llie, llie_g)
-        nl = self.ll_n.fusion_strategy(nlie, nlie_g)
-        g_intersection = self.post_fusion(torch.cat((ll, nl), dim=1))
-        output = llie + nlie - g_intersection
-                        
-        output = torch.clamp(output, min=1e-9, max=1)
-        if isvid:
-            return output, g_l, g_n, g[:,0].reshape_as(g_l), g[:,1].reshape_as(g_n)
-        return output
-    
     def gamma_estimation(self, x):
 
         y = self.gamma_est(x)
