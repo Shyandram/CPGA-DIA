@@ -2,11 +2,6 @@
 
 Official CPGA-DIA implemenation based on Pytorch
 
-## Affiliation
-Authors: Shyang-En Weng, Chang-Pin Hsu, Cheng-Yen Hsiao, Ricky Christanto & *[Shaou-Gang Miaou](mailto:miaou@cycu.edu.tw)  
-多媒體計算與通訊實驗室 Multimedia Computing and Telcommunications Lab (Mu-Cat),  
-Department of Electronic Engineering @ Chung Yuan Christian University
-
 ## CPGA-DIA
 <img src="Fig/CPGADIA.png" width="600">
 
