@@ -2,6 +2,11 @@
 
 Official CPGA-DIA implemenation based on Pytorch
 
+## Affiliation
+Authors: Shyang-En Weng, Chang-Pin Hsu, Cheng-Yen Hsiao, Ricky Christanto & *[Shaou-Gang Miaou](mailto:miaou@cycu.edu.tw)  
+多媒體計算與通訊實驗室 Multimedia Computing and Telcommunications Lab (Mu-Cat),  
+Department of Electronic Engineering @ Chung Yuan Christian University
+
 ## CPGA-DIA
 <img src="Fig/CPGADIA.png" width="600">
 
@@ -24,6 +29,7 @@ python demo_enhanced_video_CPGADN.py --use_gpu true --gpu 0 --output_name test -
 <img src="Fig/detect-day.png" width="400">
 <img src="Fig/detect-night.png" width="400">
 
+
 ## Citation
 ```
 Weng, SE., Hsu, CP., Hsiao, CY. et al. From dim to glow: dynamic illuminance adjustment for simultaneous exposure correction and low-light image enhancement. SIViP (2024). https://doi.org/10.1007/s11760-024-03519-0
@@ -42,8 +48,3 @@ Advanced driver assistance systems
 
 ## Acknowledgement
 [CPGA-Net](https://github.com/Shyandram/CPGA-Net-Pytorch)
-
-## Affiliation
-Authors: Shyang-En Weng, Chang-Pin Hsu, Cheng-Yen Hsiao, Ricky Christanto & *[Shaou-Gang Miaou](mailto:miaou@cycu.edu.tw)  
-[多媒體計算與通訊實驗室 Multimedia Computing and Telcommunications Lab (Mu-Cat)](https://sites.google.com/view/mucatcycu)  
-Electronic Engineering @ Chung Yuan Christian University
