@@ -1,5 +1,7 @@
 # [From dim to glow: dynamic illuminance adjustment for simultaneous exposure correction and low-light image enhancement](https://doi.org/10.1007/s11760-024-03519-0)
 
+Shyang-En Weng, Chang-Pin Hsu, Cheng-Yen Hsiao, Ricky Christanto & *Shaou-Gang Miaou
+
 Official CPGA-DIA implemenation based on Pytorch
 
 ## CPGA-DIA
