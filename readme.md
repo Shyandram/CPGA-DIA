@@ -12,7 +12,7 @@ Official CPGA-DIA implemenation based on Pytorch
 
 ```
 python demo_enhance_CPGADN.py --net_name CPGA_DIA-lolv1 --use_gpu true --gpu 0 --val_ori_data_path LOLdataset/eval/eval15/low/ --val_haze_data_path LOLdataset/eval/eval15/low/ --dataset_type LOL-v1 --num_workers 1 --val_batch_size 1 --ckpt CPGA_DIA.pkl
-// val_haze_data_path & val_ori_data_path remains the same input and use dataset_type LOL-v1
+// val_haze_data_path & val_ori_data_path keep the same input and use dataset_type LOL-v1
 ```
 
 ### Demo CPGA-DIA (Video)
