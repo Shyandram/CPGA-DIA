@@ -29,6 +29,16 @@ python demo_enhanced_video_CPGADN.py --use_gpu true --gpu 0 --output_name test -
 ```
 Weng, SE., Hsu, CP., Hsiao, CY. et al. From dim to glow: dynamic illuminance adjustment for simultaneous exposure correction and low-light image enhancement. SIViP (2024). https://doi.org/10.1007/s11760-024-03519-0
 ```
+```
+@article{weng2024dim,
+  title={From dim to glow: dynamic illuminance adjustment for simultaneous exposure correction and low-light image enhancement},
+  author={Weng, Shyang-En and Hsu, Chang-Pin and Hsiao, Cheng-Yen and Christanto, Ricky and Miaou, Shaou-Gang},
+  journal={Signal, Image and Video Processing},
+  pages={1--11},
+  year={2024},
+  publisher={Springer}
+}
+```
 
 ### Keywords
 ```
